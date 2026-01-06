@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a519ae33cf0d4744198dc08dd081c926, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  name: Pistol
+  weaponType: 0
+  prefab: {fileID: 6097396533041951806, guid: 153224a932abdf341a9cd06c5da1b937, type: 3}
+  standingAimBaseBloom: 0.1
+  standingBaseBloom: 0.2
+  WalkingAimBaseBloom: 0.25
+  walkingBaseBloom: 0.3
+  runningBaseBloom: 0.4
+  slidingBaseBloom: 0.6
+  bloomSwitchSpeedLerp: 0.9
+  reticleFireScale: 1
+  AccuracyAfterShootingMultiplier: 1
+  fireResetSpeedLerp: 0.94
+  standingAccuracyMultiplier: 1
+  walkingAccuracyMultiplier: 1
+  standingAimAccuracyMultiplier: 1
+  walkingAimAccuracyMultiplier: 1
+  runningAccuracyMultiplier: 1
+  slidingAccuracyMultiplier: 1
+  recoil: 50
+  kickBack: 0.5
+  reticleHitTime: 0.3
+  CostmeticResetSpeedLerp: 0.92
+  ADSfireRate: 0
+  fireRate: 0.25
+  aimSpeedLerp: 0.9
+  damage: 100
+  ammo: 50
+  clipSize: 16
+  reloadTime: 1.2
+  burst: 1
+  equipTime: 0.35
+  unEquipTime: 0.25
+  aimModifier: 0.5
+  bulletSpeed: 4
+  specialPref: {fileID: 0}

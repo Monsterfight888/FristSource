@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Upper Body
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 0
+  - m_Path: Armature/Body 1
+    m_Weight: 1
+  - m_Path: Armature/Body 1/Head 1
+    m_Weight: 1
+  - m_Path: Armature/Body 1/Head 1/Hat 1
+    m_Weight: 1
+  - m_Path: Armature/Body 1/Head 1/Hat 1/Hat_end
+    m_Weight: 1
+  - m_Path: Armature/UpperArm.L
+    m_Weight: 1
+  - m_Path: Armature/UpperArm.L/LowerArm.L
+    m_Weight: 1
+  - m_Path: Armature/UpperArm.L/LowerArm.L/LowerArm.L_end
+    m_Weight: 1
+  - m_Path: Armature/UpperArm.R
+    m_Weight: 1
+  - m_Path: Armature/UpperArm.R/LowerArm.R
+    m_Weight: 1
+  - m_Path: Armature/UpperArm.R/LowerArm.R/LowerArm.R_end
+    m_Weight: 1
+  - m_Path: Armature/UpperLeg.L
+    m_Weight: 0
+  - m_Path: Armature/UpperLeg.L/LowerLeg.L
+    m_Weight: 0
+  - m_Path: Armature/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+    m_Weight: 1
+  - m_Path: Armature/UpperLeg.R
+    m_Weight: 0
+  - m_Path: Armature/UpperLeg.R/LowerLeg.R
+    m_Weight: 0
+  - m_Path: Armature/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+    m_Weight: 1
+  - m_Path: Body
+    m_Weight: 0
+  - m_Path: Camera
+    m_Weight: 0
+  - m_Path: Empty
+    m_Weight: 0
+  - m_Path: Hat
+    m_Weight: 0
+  - m_Path: Head
+    m_Weight: 0
+  - m_Path: Light
+    m_Weight: 0
+  - m_Path: Lower Arms
+    m_Weight: 0
+  - m_Path: Lower Feet
+    m_Weight: 0
+  - m_Path: Upper Arms
+    m_Weight: 0
+  - m_Path: Upper Feat
+    m_Weight: 0

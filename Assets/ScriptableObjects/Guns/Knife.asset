@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a519ae33cf0d4744198dc08dd081c926, type: 3}
+  m_Name: Knife
+  m_EditorClassIdentifier: 
+  name: Revolver
+  weaponType: 0
+  prefab: {fileID: 6097396533041951806, guid: a77f729b1d9d384458db6e376f328660, type: 3}
+  standingAimBaseBloom: 0.1
+  standingBaseBloom: 0.3
+  WalkingAimBaseBloom: 0.45
+  walkingBaseBloom: 0.6
+  runningBaseBloom: 0.7
+  slidingBaseBloom: 0.95
+  bloomSwitchSpeedLerp: 0.9
+  reticleFireScale: 1
+  AccuracyAfterShootingMultiplier: 1
+  fireResetSpeedLerp: 0.94
+  standingAccuracyMultiplier: 2
+  walkingAccuracyMultiplier: 2
+  standingAimAccuracyMultiplier: 0.1
+  walkingAimAccuracyMultiplier: 0.5
+  runningAccuracyMultiplier: 2
+  slidingAccuracyMultiplier: 2
+  recoil: 50
+  kickBack: 0.5
+  reticleHitTime: 0.3
+  CostmeticResetSpeedLerp: 0.92
+  ADSfireRate: 0.5
+  fireRate: 0.2
+  aimSpeedLerp: 0.9
+  damage: 150
+  ammo: 50
+  clipSize: 6
+  reloadTime: 1.2
+  burst: 1
+  equipTime: 0.35
+  unEquipTime: 0.25
+  aimModifier: 0.5
+  bulletSpeed: 0.3
+  specialPref: {fileID: 5255427259785047492, guid: 1442ff689abbde8498a12e151def2595,
+    type: 3}

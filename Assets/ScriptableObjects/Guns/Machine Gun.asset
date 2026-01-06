@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a519ae33cf0d4744198dc08dd081c926, type: 3}
+  m_Name: Machine Gun
+  m_EditorClassIdentifier: 
+  name: Machine Gun
+  weaponType: 0
+  prefab: {fileID: 6097396533041951806, guid: 411b37591588da2498b53c538d7478ec, type: 3}
+  standingAimBaseBloom: 0.328
+  standingBaseBloom: 0.474
+  WalkingAimBaseBloom: 0.572
+  walkingBaseBloom: 0.657
+  runningBaseBloom: 0.774
+  slidingBaseBloom: 0.896
+  bloomSwitchSpeedLerp: 0.9
+  reticleFireScale: 0.5
+  AccuracyAfterShootingMultiplier: 10
+  fireResetSpeedLerp: 0.98
+  standingAccuracyMultiplier: 1
+  walkingAccuracyMultiplier: 1
+  standingAimAccuracyMultiplier: 1
+  walkingAimAccuracyMultiplier: 1
+  runningAccuracyMultiplier: 1
+  slidingAccuracyMultiplier: 1
+  recoil: 7
+  kickBack: 0.2
+  reticleHitTime: 0.1
+  CostmeticResetSpeedLerp: 0.9
+  ADSfireRate: 0
+  fireRate: 0.05
+  aimSpeedLerp: 0.9
+  damage: 75
+  ammo: 120
+  clipSize: 40
+  reloadTime: 3
+  burst: 1
+  equipTime: 0.55
+  unEquipTime: 0.29
+  aimModifier: 0.8
+  bulletSpeed: 0.25
+  specialPref: {fileID: 0}
